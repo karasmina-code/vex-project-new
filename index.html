@@ -2,7 +2,11 @@
 <!-- saved from url=(0043)https://vr.vex.com/VRWindow.html?v=4.67.0-5 -->
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <base href="https://vr.vex.com/" />
+    <meta
+      http-equiv="Content-Security-policy"
+      content="default-src * 'unsafe-inline' 'unsafe-eval'; connect-src *;"
+    />
 
     <meta name="viewport" content="width=device-width, user-scalable=no" />
 
@@ -476,7 +480,7 @@
     <!-- Main -->
     <script>
       window.eingProgram = 1;
-	  window.eingVM=3;
+      window.eingVM = 3;
     </script>
     <script src="./VRWindowMain.bundle.js"></script>
 
